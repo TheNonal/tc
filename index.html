@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Торговый центр</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel = "stylesheet" href = "css/style.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#toTop').fadeIn();
+                } 
+                else {
+                    $('#toTop').fadeOut();
+                }
+            });
+            $('#toTop').click(function() {
+                $('body,html').animate({scrollTop:0},800);
+            });
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div class = "bg">
+        <div class = "wrapper1 wrapper-blue">
+            <ul class = "info">
+                <li><a href = "#brands"  class='abc'>БРЕНДЫ</a></li>
+                <li><a href = "#partners"  class='abc'>ПАРТНЁРЫ</a></li>
+                <li><a href = "#stores"  class='abc'>МАГАЗИНЫ</a></li>
+                <li><a href = "#seti"  class='abc'>СОЦСЕТИ</a></li>
+            </ul>
+        </div> 
+    </div>
+
+    
+    <div class = "wrapper wrapper-blue">
+        <div class = "stat">
+            <div class = "stat-item">
+                <h2>4</h2>
+                <h3>этажа</h3>
+            </div>
+
+            <div class = "stat-item">
+                <h2>5</h2>
+                <h3>точек</h3>
+                <h3>отдыха</h3>
+            </div>
+
+            <div class = "stat-item">
+                <h2>3</h2>
+                <h3>сцены</h3>
+            </div>
+
+            <div class = "stat-item">
+                <h2>120</h2>
+                <h3>торговых</h3>
+                <h3>точек</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class = "wrapper-brapper">
+        <a name = "brands"></a>
+        <h2>крупнейшие бренды</h2>
+    </div>
+
+    <div class = "box-party">
+        <div>
+            <img src="img/chicken.png" alt="">
+            <h3>KFC</h3>
+        </div>
+
+        <div>
+            <img src="img/trainers.png" alt="">
+            <h3>NIKE</h3>
+        </div>
+
+        <div>
+            <img src="img/furniture2.png" alt="">
+            <h3>IKEA</h3>
+        </div>
+    </div>
+
+    <div class = "text">
+        <a name = "partners"></a>
+        <p>KFC - один из самых популярных ресторанов быстрого питания.<br>
+        Также в нашем торговом центре вы сможете посетить множество точек быстрого питания!<br><br>
+        NIKE - знаменитый магазин спортивной одежды на мировом рынке.<br>
+        Но если вы хотите найти что-то своё, близкое к сердцу, то вы наверняка найдёте это в нашем торговом центре. <br>
+        Множество магазинов и бутиков одежды ждут вас.<br><br>
+        IKEA - самая крупная мебельная компания родом из Швеции.<br>
+        Базируется на производстве мебели и других бытовых вещей на любой вкус.<br><br>
+        Также у нас есть и другие партнёры: <br>CROPP, O’HARA, ADIDAS, APPLE, Samsung, McDonald’s, Coca-Cola, Disney, Sratbucks, Intel, L’Oreal,<br> LEGO, Cisco, Эван, GUCCI, H&M, Школьник, ZARA, Burger King, Нева, Colgate, Xiaomi, DHL, Pepsi,<br> Ping An, Hermes, Salesforce, Wells Fargo, Дельфин, Linkedln, Costco, Oracle, JD.com, Триколор,<br> Budweiser, Vodafone, Meituan, Chase, DiDi, Microsoft, Sony, Orange, Чайка, HSBC, Haier, Bosch, Fly,<br> Genius, HTC, Huawei, HP, Парус. 
+    </p>
+    </div>
+
+    <div>
+        <p> </p>
+    </div>
+
+
+    <div class = "banner">
+        <div class = "wrapper">
+            <div class = "box-banner">
+                <div>
+                    <h3>ПРЕКРАСНОЕ МЕСТО</h3>
+                    <p>ДЛЯ ОТДЫХА ВСЕЙ СЕМЬЁЙ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class = "wrapper">
+        <a name="stores"></a>
+        <h2>Какие магазины будут</h2>
+        <div class = "grid">
+            <div class = "grid-item grid-one">
+                <img src="img/family.png" alt="">
+                <h3>ДЛЯ ВСЕЙ СЕМЬИ</h3>
+            </div>
+
+            <div class = "grid-item grid-two">
+                <img src="img/clothes.png" alt="">
+                <h3>ОДЕЖДА</h3>
+            </div>
+
+            <div class = "grid-item grid-three">
+                <img src="img/home1.png" alt="">
+                <h3>ТЕХНИКА</h3>
+            </div>
+
+            <div class = "grid-item grid-four">
+                <img src="img/food.png" alt="">
+                <h3>ВКУСНО ПОКУШАТЬ</h3>
+            </div>
+
+            <div class = "grid-item grid-five">
+                <img src="img/furniture.png" alt="">
+                <h3>МЕБЕЛЬ</h3>
+            </div>
+
+            <div class = "grid-item grid-six">
+                <img src="img/party.png" alt="">
+                <h3>РАЗВЛЕЧЕНИЯ</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class = "footer">
+        <div class = "wrapper">
+            <div class = "box-footer">
+                <div><span>© 2022 НУ ВЫ ПРИХОДИТЕ ЕСЛИ ЧЁ)</span></div>
+                <div>
+                    <a name = "seti"></a>
+                    <a href = "https://vk.com"><img src="img/vk.png" alt=""></a>
+                    <a href = "https://telegram.org"><img src="img/tg.png" alt=""></a>
+                    <a href = "https://youtube.com"><img src="img/yt.png" alt=""></a>
+                </div>
+                <div><span>СДЕЛАЛИ ВОЩИН И ОСКОНБАЕВ</span></div>
+            </div>
+        </div>
+    </div>
+    <div id = "toTop" > ^ Наверх </div>
+</body>
+</html>
